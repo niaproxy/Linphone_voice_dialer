@@ -1,0 +1,9 @@
+-hmm zero_ru.cd_cont_4000/ 
+-dict trans3 
+-cepext .wav
+ 
+-jsgf disp_dial-test.jsgf
+-cepdir /home/ivan/sphinx
+-ctl ctlfile
+-adcin true
+-hyp outname

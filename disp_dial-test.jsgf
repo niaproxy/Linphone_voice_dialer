@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+grammar disp;
+
+
+<number> = (ноль|один|два|три|четыре|пять|шесть|семь|восемь|девять);
+<expression> = (<number><number><number><number><number>);
+<garbage> =  ([а] [и] [о] [у] [ы] [э]);
+public <disp> = [<garbage>] (вызов диспетчера) [<garbage>] | [<garbage>] (набор <expression>) [<garbage>] ;
